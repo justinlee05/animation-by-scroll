@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  border: 1px solid black;
+  height: 4000px;
+}
+
+div {
+  border: 1px solid red;
+  height: 100vh;
+  position: sticky;
+  top: 0px;
+}
+
+#text {
+  border: 1px solid black;
+  text-align: center;
+  font-size: 25px;
+  display: flex;
+  height: 100px;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.orange {
+  color: orange;
+  margin-left: 10px;
+}
+
+#u,
+#p {
+  color: orange;
+  text-align: start;
+}
+
+#u span,
+#p span {
+  color: black;
+  position: absolute;
+}
+
+#p {
+  margin-right: 4px;
+}
